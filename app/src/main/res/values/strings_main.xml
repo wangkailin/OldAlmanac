@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="label_activity_main_top_text">今日运势</string>
+    <string name="label_activity_main_bottom_left_text">每日任务</string>
+    <string name="label_activity_main_bottom_right_text">自定义</string>
+</resources>

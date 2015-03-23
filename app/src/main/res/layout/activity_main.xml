@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/layout_top" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:clickable="true"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginEnd="2dp"
+            android:gravity="center"
+            android:background="@drawable/button_bg_selector"
+            android:text="@string/label_activity_main_bottom_left_text"
+            android:textColor="@drawable/button_text_selector"
+            android:textSize="20sp" />
+
+        <TextView
+            android:clickable="true"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginEnd="4dp"
+            android:gravity="center"
+            android:background="@drawable/button_bg_selector"
+            android:text="@string/label_activity_main_bottom_right_text"
+            android:textColor="@drawable/button_text_selector"
+            android:textSize="20sp" />
+    </LinearLayout>
+</LinearLayout>
